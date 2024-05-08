@@ -1,0 +1,109 @@
+html{
+    background-color: beige;
+}
+
+h1{
+    background-color: BurlyWood;
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 5px 5px 5px gray;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgb(66, 65, 65);
+}
+
+figure{
+    display: block;
+    margin-left: 0px;
+}
+
+h2{
+    text-align: left;
+    text-shadow: 5px 5px 5px gray;
+}
+
+h3{
+    text-align: center;
+}
+
+nav{
+    background-color: BurlyWood;;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: 10px 10px 10px gray;
+    border: 1px solid black;
+}
+
+nav a:visited{
+    color: DimGray;
+}
+
+nav a:link{
+    color:black;
+}
+.voltar{
+    font-size: 18px;
+    text-shadow: 5px 5px 5px gray;
+    padding-top: 20px;
+}
+
+footer{
+    text-align: right;    
+}
+.dadosPessoais{
+    display: grid;
+    /*border: 2px solid black;*/
+    grid-template-columns: 1fr .02fr 1fr;
+
+}
+.alunos{
+    background-color: Tan;
+    display: grid;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgb(66, 65, 65);
+}
+
+.moradia{
+    display: grid;
+    grid-template-columns: 1fr .02fr 1fr;    
+}
+
+.locais{
+    background-color: Moccasin;
+    display: grid;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 8px 8px 8px;
+}
+
+.semestreAnterior{
+    display: grid;
+    grid-template-columns: 1fr .02fr 1fr;    
+}
+
+.disciplinasAnteriores{
+    background-color: Bisque;
+    display: grid;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px;
+}
+
+.semestreAtual{
+    display: grid;
+    grid-template-columns: 1fr .02fr 1fr;    
+}
+
+.disciplinasAtuais{
+    background-color: AntiqueWhite;
+    display: grid;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px;
+}
